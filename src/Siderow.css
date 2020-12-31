@@ -1,0 +1,33 @@
+.siderow {
+  display: flex;
+  padding: 10px 20px;
+}
+.title {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.siderow__icon {
+  font-size: larger !important;
+  color: #606060;
+}
+.siderow:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.siderow:hover > .siderow__icon {
+  color: red !important;
+}
+.siderow:hover > .title {
+  font-weight: bold;
+}
+.selected {
+  background-color: lightgrey;
+}
+.selected > .siderow__icon {
+  color: red !important;
+}
+.selected > .title {
+  font-weight: bold;
+}
